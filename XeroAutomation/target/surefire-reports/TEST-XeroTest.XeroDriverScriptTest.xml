@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="3" name="XeroTest.XeroDriverScriptTest" time="153.67" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\devesh\workspace\XeroAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\devesh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\devesh\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf864783314489085576.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\devesh\AppData\Local\Microsoft\WindowsApps;;C:\eclipse\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\devesh"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="devesh"/>
+    <property name="java.class.path" value="/C:/eclipse/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\devesh\workspace\XeroAutomation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="XeroTest.XeroDriverScriptTest" name="Login_Error_Message_1" time="32.896">
+    <failure message="Failed to decode response from marionette
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-GFB0D2V&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 14488, moz:profile: C:\Users\devesh\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 85af23ef-04c8-4e3d-929f-88cc4331578b
+*** Element info: {Using=xpath, value=//a[@class=&apos;btn btn-tertiary-alt global-ceiling-bar-btn&apos;]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-GFB0D2V&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 14488, moz:profile: C:\Users\devesh\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 85af23ef-04c8-4e3d-929f-88cc4331578b
+*** Element info: {Using=xpath, value=//a[@class=&apos;btn btn-tertiary-alt global-ceiling-bar-btn&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at XeroTest.AutomationXero.Login_Error_Message_1(AutomationXero.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@707f7052
+C:\Users\devesh\workspace\XeroAutomation
+Xero page opened
+</system-out>
+    <system-err>1540121199868	mozrunner::runner	INFO	Running command: &quot;C:/Program Files/Mozilla Firefox/firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\devesh\\AppData\\Local\\Temp\\rust_mozprofile.6uLO6kdiIN8M&quot;
+1540121205877	Marionette	INFO	Listening on port 64485
+1540121206036	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540121206088	Marionette	DEBUG	[6442450945] Frame script loaded
+1540121206093	Marionette	DEBUG	[6442450945] Frame script registered
+Oct 21, 2018 7:26:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1540121206225	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540121207776	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540121210651	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.xero.com/us/
+1540121213308	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1540121213457	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+1540121217255	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1540121217256	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450975
+1540121217516	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1540121218214	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1540121218479	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1540121218794	Marionette	DEBUG	[6442450986] Frame script loaded
+1540121218794	Marionette	DEBUG	[6442450986] Frame script registered
+1540121218848	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450984
+1540121218856	Marionette	DEBUG	[6442451000] Frame script loaded
+1540121218856	Marionette	DEBUG	[6442451000] Frame script registered
+1540121218870	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1540121218872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1540121219035	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451004
+1540121219365	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.xero.com/us/
+[Child 14400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540121219573	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.xero.com/us/
+1540121219617	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1540121219621	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1540121219621	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1540121219622	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1540121219622	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1540121219623	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1540121219623	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1540121219624	Marionette	DEBUG	[6442450945] Re[Parent 14488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/ceived observer notifcommon/ipc_channel_win.cc, line 346
+ication outer-window-destroyed for 6442450961
+1540121219624	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1540121219624	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1540121219625	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1540121219625	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1540121219626	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1540121219627	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1540121219627	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 14488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540121221370	Marionette	INFO	Stopped listening on port 64485
+[GPU 18712, Chrome_ChildThread
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+</system-err>
+  </testcase>
+  <testcase classname="XeroTest.XeroDriverScriptTest" name="tC2Login_Error_Message_2" time="37.746">
+    <failure message="Element &lt;a class=&quot;btn btn-tertiary-alt global-ceiling-bar-btn&quot; href=&quot;https://login.xero.com/&quot;&gt; is not clickable at point (1028.208351135254,30) because another element &lt;img class=&quot;C775EPGIx&quot; src=&quot;https://t.1p1eqpotato.com/t/?s=50&amp;a=49a2b95ad52411e88b380242ac110013&amp;b=49a2b95ad52411e88b380242ac110013-1-2684&amp;r=https%3A%2F%2Frsimage-a.akamaihd.net%2Fsimg%3Fk%3D%252Fimg%252Fc5ac4674-8512-418a-ae4a-baf487fd1081.jpg%26b%3Dmedia.rsimg.50rtx.com%26h%3D150%26w%3D150&quot;&gt; obscures it
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-GFB0D2V&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 14904, moz:profile: C:\Users\devesh\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b6ac35eb-b22b-4360-8f28-ab98e3fed2c4" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;btn btn-tertiary-alt global-ceiling-bar-btn&quot; href=&quot;https://login.xero.com/&quot;&gt; is not clickable at point (1028.208351135254,30) because another element &lt;img class=&quot;C775EPGIx&quot; src=&quot;https://t.1p1eqpotato.com/t/?s=50&amp;a=49a2b95ad52411e88b380242ac110013&amp;b=49a2b95ad52411e88b380242ac110013-1-2684&amp;r=https%3A%2F%2Frsimage-a.akamaihd.net%2Fsimg%3Fk%3D%252Fimg%252Fc5ac4674-8512-418a-ae4a-baf487fd1081.jpg%26b%3Dmedia.rsimg.50rtx.com%26h%3D150%26w%3D150&quot;&gt; obscures it
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-GFB0D2V&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 14904, moz:profile: C:\Users\devesh\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b6ac35eb-b22b-4360-8f28-ab98e3fed2c4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at XeroTest.ReUsableMethodsForXero.clickElement(ReUsableMethodsForXero.java:51)
+	at XeroTest.AutomationXero.tC2Login_Error_Message_2(AutomationXero.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>C:\Users\devesh\workspace\XeroAutomation
+Xero page opened
+</system-out>
+    <system-err>1540121231441	mozrunner::runner	INFO	Running command: &quot;C:/Program Files/Mozilla Firefox/firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\devesh\\AppData\\Local\\Temp\\rust_mozprofile.ZKCaFLxIuKCb&quot;
+1540121237180	Marionette	INFO	Listening on port 64679
+1540121237564	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540121237607	Marionette	DEBUG	[6442450945] Frame script loaded
+1540121237609	Marionette	DEBUG	[6442450945] Frame script registered
+Oct 21, 2018 7:27:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1540121237654	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540121239774	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540121242864	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.xero.com/us/
+1540121246766	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1540121246771	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+1540121249872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1540121250207	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1540121250321	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1540121250952	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1540121250955	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1540121250968	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+1540121257371	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1540121258255	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.xero.com/us/
+</system-err>
+  </testcase>
+  <testcase classname="XeroTest.XeroDriverScriptTest" name="tC3Login_Error_Message_3" time="83.028">
+    <failure message="Element &lt;a class=&quot;btn btn-tertiary-alt global-ceiling-bar-btn&quot; href=&quot;https://login.xero.com/&quot;&gt; is not clickable at point (1028.208351135254,30) because another element &lt;img class=&quot;c7m6iP4zSe&quot; src=&quot;https://t.1p1eqpotato.com/t/?s=50&amp;a=6246b51dd52411e89c5f0242ac110004&amp;b=6246b51dd52411e89c5f0242ac110004-1-2684&amp;r=https%3A%2F%2Frsimage-a.akamaihd.net%2Fsimg%3Fk%3D%252Fimg%252F93287991-1b9e-48b3-a01c-f5b5cfb6661e.png%26b%3Dmedia.rsimg.50rtx.com%26h%3D150%26w%3D150&quot;&gt; obscures it
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-GFB0D2V&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 14848, moz:profile: C:\Users\devesh\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8af42b6b-62fe-43e1-989b-60ad1f65a6cf" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;btn btn-tertiary-alt global-ceiling-bar-btn&quot; href=&quot;https://login.xero.com/&quot;&gt; is not clickable at point (1028.208351135254,30) because another element &lt;img class=&quot;c7m6iP4zSe&quot; src=&quot;https://t.1p1eqpotato.com/t/?s=50&amp;a=6246b51dd52411e89c5f0242ac110004&amp;b=6246b51dd52411e89c5f0242ac110004-1-2684&amp;r=https%3A%2F%2Frsimage-a.akamaihd.net%2Fsimg%3Fk%3D%252Fimg%252F93287991-1b9e-48b3-a01c-f5b5cfb6661e.png%26b%3Dmedia.rsimg.50rtx.com%26h%3D150%26w%3D150&quot;&gt; obscures it
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-GFB0D2V&apos;, ip: &apos;10.0.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.22.0, moz:headless: false, moz:processID: 14848, moz:profile: C:\Users\devesh\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8af42b6b-62fe-43e1-989b-60ad1f65a6cf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at XeroTest.ReUsableMethodsForXero.clickElement(ReUsableMethodsForXero.java:51)
+	at XeroTest.AutomationXero.tC3Login_Error_Message_3(AutomationXero.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>C:\Users\devesh\workspace\XeroAutomation
+Xero page opened
+</system-out>
+    <system-err>1540121269215	mozrunner::runner	INFO	Running command: &quot;C:/Program Files/Mozilla Firefox/firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\devesh\\AppData\\Local\\Temp\\rust_mozprofile.jBXizEYRBBGT&quot;
+1540121274996	Marionette	INFO	Listening on port 64976
+1540121275333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540121275410	Marionette	DEBUG	[6442450945] Frame script loaded
+1540121275417	Marionette	DEBUG	[6442450945] Frame script registered
+Oct 21, 2018 7:27:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1540121275472	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540121277398	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540121281881	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.xero.com/us/
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+JavaScript warning: https://sax.mediaonspot.com/?ti=4143&amp;si=59002, line 2: unreachable code after return statement
+1540121287258	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1540121287471	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1540121288128	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1540121289555	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1540121289563	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1540121289567	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+[Parent 14904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540121289744	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1540121290368	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450985
+JavaScript warning: https://senhation.pro/cMDG9o6Ibz2X5ZlFS.W/Q/9cM/zhYK4NNkTSMS3aNSQx=c=h, line 7: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000001831852E800)::ForceLoseContext
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.ujoongeilaej.info/ffe807/dfjvzbbxcmvb.js, line 1: unreachable code after return statement
+JavaScript error: http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+1540121296517	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1540121296519	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+JavaScript warning: https://static.cmptch.com/v/lib/s.js?1533630008, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000001831852F800)::ForceLoseContext
+JavaScript warning: https://static.cmptch.com/v/lib/s.js?1533630008, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000001831D055000)::ForceLoseContext
+1540121304738	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
+1540121304815	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451030
+1540121304816	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1540121304816	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1540121307163	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451039
+1540121307164	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451040
+1540121307164	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451037
+1540121307165	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451033
+1540121308220	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1540121309817	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1540121311015	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451053
+1540121311017	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451054
+1540121311019	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451048
+1540121311021	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451043
+1540121341277	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451004
+1540121341332	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.xero.com/us/
+</system-err>
+  </testcase>
+</testsuite>
